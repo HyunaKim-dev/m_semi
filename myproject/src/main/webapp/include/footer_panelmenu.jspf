@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+  <div data-role="footer" id="footer" data-position="fixed" >
+   <div data-role="navbar" id="footer_nav">
+    <ul>
+     <li><a href="index_m.jsp" class="nav" target="_self"><i class="fa-solid fa-house"></i></a></li>
+     <li><a href="https://goo.gl/maps/RtHc5KDEUCJXoEVBA" class="nav" target="_blank"><i class="fa-solid fa-location-dot"></i></a></li>
+     <li><a href="subscription.jsp" class="nav" target="_self"><i class="fa-solid fa-paper-plane"></i></a></li>
+     <li><a href="login.jsp" class="nav" target="_self"><i class="fa-solid fa-circle-user"></i></a></li>
+    </ul>
+   </div>
+  </div><!-- footer -->
+  
+  <div data-role="panel" id="menu" data-display="overlay" data-position="right">
+   <div align="right" style="margin: 0px 5px 20px 0px">
+    <a href="#" data-rel="close"><i class="fa-solid fa-rectangle-xmark"></i></a>
+   </div>
+   <ul id="menu-ul" data-role="listview" data-inset="true">
+    <li><a href="articles.jsp" target="_self">최근 기사</a></li>
+    <li><a href="brownstar.jsp" target="_self">브라운 스타</a></li>
+    <li><a href="magazines.jsp" target="_self">매거진</a></li>
+    <li><a href="subscription.jsp" target="_self">구독신청</a></li>
+   </ul> 
+   <ul id="menu-ul2" data-role="listview" data-inset="true">
+    <li><a data-role="button" href="login.jsp" target="_self">로그인</a></li>	
+    <li><a data-role="button" href="member.jsp" target="_self">내정보 수정</a></li>	
+    <li><a data-role="button" href="#" id="btnLogout" target="_self">로그아웃</a></li>
+    <li><a data-role="button" href="join.jsp" target="_self">회원가입</a></li>
+    </ul>		
+	<h3>오시는 길</h3>
+   <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10949.274473790676!2d126.97774709218366!3d37.56523109001407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2c6a9d32947%3A0xfb70e7c1c785a405!2z6rWt66a97ZiE64yA66-47Iig6rSAIOyEnOyauA!5e0!3m2!1sko!2skr!4v1658295385702!5m2!1sko!2skr" 
+   allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div><!-- #menu -->

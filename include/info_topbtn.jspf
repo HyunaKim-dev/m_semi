@@ -1,0 +1,12 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+	<div id="info" align="center">
+    <hr id="lasthr"><br>
+	 <p>상호 : (주)모모 Momo Company | 대표 : 김고영<br>
+	 서울특별시 종로구 삼청로5길 30, 101호 050509<br>
+	 <a href="tel:8232321534" target="_blank">+82-3-232-1534</a> | 
+	 <a href="mailto:info@momo.com">info@momo.com</a></p>	 
+	 <p>© 2021-2022 MOMO Company | All rights reserved<br></p>
+ </div>
+ <!-- top버튼 -->
+  <a href="#" data-role="button" id="to_top" class="ui-btn-right"><i class="fa-solid fa-angles-up"></i></a>

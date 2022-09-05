@@ -1,0 +1,11 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+  <div data-role="header" id="header">
+   <p id="logo"><a href="index_m.jsp" target="_self">Momo Magazine<i class="fa-brands fa-envira"></i><i class="fa-brands fa-pagelines"></i></a></p>
+   <div data-role="controlgroup" id="right_btn" class="ui-btn-right" data-type="horizontal">
+    <a href="#" data-role="none" onclick="changeMode()"><i id="backmode" class="fa-solid fa-moon"></i></a>
+    <a href="#menu" data-role="none" id="menubar" data-role="none" data-transition="slide" target="_self">
+  <i class="fa-solid fa-bars"></i></a></div>
+    <a href="" data-role="button" data-inline="true" id="btn_back" data-rel="back" data-transition="slide" target="_self">
+      <i class="fa-solid fa-arrow-left-long" ></i> 이전으로</a>
+  </div>

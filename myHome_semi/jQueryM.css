@@ -1,0 +1,322 @@
+@charset "UTF-8";
+*{font-family: "함초롬바탕"; text-shadow: none;}
+#home {background-color: #FAFAFA;}
+#menu {background-color: inherit;}
+#header {
+margin: 0 10% 0 10%;
+background-color: inherit;
+padding: 40px 10px 20px 10px;
+text-shadow: none;
+}
+#header p{
+ padding-bottom: 10px;
+ font-size: 3vh;
+ text-shadow: none;
+ color: inherit;
+}
+#content{font-size:1.5vh;}
+
+@media screen and (max-width: 1000px){
+#header{text-align: center;}
+#navbar{display: none;}
+#content .ui-grid-b .ui-block-a{margin-bottom:10%; width: 100%; padding:0 0 20% 0;} 
+#content .ui-grid-b .ui-block-b{margin-bottom:10%;width: 100%; padding:0 0 20% 0;}
+#content .ui-grid-b .ui-block-c{margin-bottom:10%;width: 100%; padding:0 0 20% 0;}
+}
+#navbar .nav{
+margin: 20% 0 0 0;
+padding: 10 0 10 0;
+font-size: 1vw;
+border: 0px;  
+background-color: inherit;
+color: #6a8570;
+text-shadow: none;
+}
+#right_btn a{
+color: #6a8570;
+font-size: 2vh;
+}
+#mainimg {
+ width: 100%;
+ height: 45vh;
+ background-image: url("https://bigseventravel.com/wp-content/uploads/2019/08/rocket-coffee-bangkok.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ opacity:1.0;
+}
+#img_title {
+ padding: 5% 0 0 5%;
+ font-size: 4vw;
+ font-weight: bold;
+ color: white;
+ text-align: left;
+ text-shadow: 1px 3px 5px #1C0000;
+}
+#mainimg h2{font-size:2vw; }
+#articles {margin: 5% 10% 0 10%; text-shadow: none;}
+#articles p:first-child {
+font-size:1.5vw;
+padding-top: 5%;
+font-weight: bold;
+}
+hr{border: 0px; height:1px; background-color: silver;}
+#grid{margin-top: 5%;}
+#grid div{
+margin:5% 0 5% 0;
+padding: 0 4% 10% 4%;
+}
+#grid img{width: 100%; height:95%;}
+#grid h3 {
+text-align: left;
+font-weight: bold;
+padding: 3px 0px 0px 0px;
+}
+#grid p {
+text-align: left;
+font-weight: lighter;
+}
+#more{font-size:0.5vw; float: right; background-color: #FAFAFA;}
+#info {
+margin: 10% 0 0 0;
+font-weight:normal;
+width: 100%;
+height: 40%;
+color:inherit;
+font-size: 1.2vh;
+}
+#footer{margin-top:10%; background-color: inherit; text-shadow: none;}
+#footer_nav .nav{
+border: 0px;
+background-color: inherit;
+color: #6a8570;
+font-size: 2vh;
+font-style: normal;
+text-shadow: none;
+} 
+#to_top{
+margin-right:30px;
+font-size:1.5vh;
+position:fixed;
+top:800px; 
+font-weight:bolder;
+color: #6a8570;
+background-color: #FAFAFA;
+display:none;
+}
+a:link{text-decoration: none; color: #6a8570;}
+#logo a:link, #logo a:hover, #logo a:active, #logo a:visited{text-decoration: none; color: #6a8570;}
+#info a:link, #grid a:link, #grid a:visited{text-decoration: none; color: inherit;}
+#info a:hover, #grid a:hover{text-decoration: none; color: #6a8570;}
+#navbar a:hover {border-bottom: 5px solid #6a8570;}
+#mainimg:hover {opacity: 0.9;}
+#table {width:500px;}
+@media screen and (max-width: 700px){
+#table {width:70%;}
+}
+@media screen and (max-width: 400px){
+#to_top{top:550px;}
+}
+/* join.jsp */
+#joinform {margin-top: 80px;}
+#joinform h1{font-size:2.5vh;}
+#joinform > table > tr {
+margin: 20px 0px 20px 0px; font-size:1.5vh;
+}
+#map{width:100%; height: 300px; border:0;}
+
+/* login.jsp */
+#loginform {margin-top: 80px;}
+#loginform h1{font-size:2.5vh;}
+
+/* admin.jsp */
+#admin_list, #memberView {margin-top: 80px;}
+#admin_list h1{font-size:2.5vh;}
+#keytable{width:50%;}
+@media screen and (max-width: 700px){
+#keytable{width:80%;}
+}
+/* member.jsp */
+#member_info {margin-top: 80px;}
+#member_info h1{font-size:2.5vh;}
+#member_info table{font-size:1.8vh; text-align:left;}
+.memberinfo_td1{width:30%; font-weight: bold; text-align:left;}
+
+/* articles.html */
+#articles_content{margin: 5% 8% 0 8%; font-size:1.3vh;}
+#articles_content p:first-child {
+font-size: 2vh; 
+font-weight: bold;
+}
+@media screen and (max-width: 700px){
+#article_listview h3{font-size:1vh;}
+#article_listview p{font-size:1vh;}
+}
+#article_listview h3 {
+text-align: left;
+font-weight: bold;
+}
+#article_listview p {
+text-align: left;
+font-weight: lighter;
+}
+/* article.html */
+#article_content{
+line-height: 170%;
+padding: 0 15% 0 15%; 
+font-size:1.8vh;
+}
+#title{
+font-weight:bold; 
+border-bottom: 1px solid;
+}
+#editor{font-size:1.5vh; font-weight:bold; color:gray;}
+.article_p {margin-top: 5%; }
+#btn_back{
+background-color: #FAFAFA; 
+margin-top:0.3%;
+}
+.quotation{
+font-weight: bold;
+margin-top: 5%;
+padding: 2% 2% 2% 2%;
+border-left-style: solid;
+border-left-width: 3px;
+border-left-color: red;
+}
+.quotation2{
+font-size: 1.5vh;
+line-height: 150%;
+margin-top: 5%;
+padding: 2% 2% 2% 2%;
+border-left-style: dotted;
+border-left-width: 3px;
+border-left-color: #00A3C3;	
+}
+#article_img{display: block; width: 40%; padding: 3% 3% 1% 3%;}
+#article_img:hover{display: block; width: 80%;}
+#fig{font-size:1.5vh; font-weight: bold;}
+#article2_iframe{width:30vw; height: 30vh;}
+.article_p h4{
+color:#00A3C3; 
+margin-top: 5%;}
+
+/* brownstars.html */
+#brownstars_content{margin: 3% 10% 0 10%; text-shadow: none;font-size: 2vh; }
+#brownstars_content p:first-child {
+padding-top: 5%;
+font-weight: bold;
+}
+/* #brownstars_content .ui-grid-c { */
+/* margin-top: 5%; */
+/* } */
+#brownstars_content .ui-grid-c div{
+width:33%;
+}
+.hashtag{font-size: 1.2vh; color:gray;}
+.star{font-size: 2vh; color:#880000;}
+.cafename{font-size: 1.3vh; font-weight: bold;}
+.cafeinfo, .cafeinfo2{font-size: 1.4vh;}
+.cafetable{padding-top:5%;}
+@media screen and (max-width: 1200px){
+#brownstars_content .ui-grid-c .ui-block-a{width: 100%; padding:0 0 30% 0;margin: 10% 0 10% 0;}
+#brownstars_content .ui-grid-c .ui-block-b{width: 100%; padding:0 0 30% 0;margin: 10% 0 10% 0;}
+#brownstars_content .ui-grid-c .ui-block-c{width: 100%; padding:0 0 30% 0;margin: 10% 0 10% 0;}
+}
+@media screen and (max-width: 700px){
+.cafeinfo2{display:none;}
+}
+
+/* magazine.html*/
+#magazines_content{
+margin: 5% 10% 10% 10%;
+font-size: 1.4vh;
+}
+#magazines_content p:first-child {
+padding-top: 60px;
+font-size: 2vh; 
+font-weight: bold;
+}
+#magazines_content .ui-grid-c{margin: 5% 0 0 0;}
+#magazines_content .ui-grid-b div{
+margin: 2% 1% 0 1%;
+}
+#magazine_title1 a:link, #magazine_title1 a:link{text-decoration: none; color:inherit;}
+#magazine_title1 a:hover, #magazine_title2 a:hover{text-decoration:none; color:red;}
+#magazine_block_a:hover, #magazine_block_b:hover{opacity: 0.8;}
+#magazine_img1{
+background-image: url("https://www.bluer.co.kr/images/es_fa1096af0f9148eca855d4bd0c2f4e11.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height:70%;
+}
+#magazine_block_a h2,#magazine_block_b h2{
+color:white;
+text-shadow: 2px 2px 2px black; 
+padding: 3% 0 0 0;
+}
+ #magazine_block_a h3, #magazine_block_a p {
+color:white;
+text-shadow: 2px 2px 2px black;
+}
+#magazine_img2{
+background-image: url("https://www.tastingtable.com/img/gallery/coffee-brands-ranked-from-worst-to-best/intro-1645231221.webp");
+background-repeat: no-repeat;
+background-size: cover;
+height:70%;
+}
+ #magazine_block_b h3, #magazine_block_b p {
+color:white;
+text-shadow: 2px 2px 2px black;
+}
+
+@media screen and (max-width: 1000px){
+#magazines_content .ui-grid-b .ui-block-a{margin-bottom:10%; width: 100%; padding:0 0 20% 0;} 
+#magazines_content .ui-grid-b .ui-block-b{margin-bottom:10%;width: 100%; padding:0 0 20% 0;}
+}
+
+
+/* cafe~.html */
+#cafe_content{margin: 5% 10% 0 10%; font-size:1.5vh;}
+#cafe_content .ui-grid-a a:link, .ui-grid-a i{color:black; font-size:1.2vh;}
+#cafe_content h1{font-size: 2v;}
+.cafeinfo_td1{width:20%;}
+.cafeinfo_td2{width:80%;}
+#cafetable1{width:95%;}
+#cafetable3 {width:95%;}
+@media screen and (max-width: 1200px){
+#cafe_content{font-size:1.5vh;}
+#cafe_content .ui-grid-a .ui-block-a{width: 100%;padding:0 0 20% 0;}
+#cafe_content .ui-grid-a .ui-block-b{height: 50vh;padding:0 0 20% 0;}
+}
+
+/* magazine~.html*/
+#magazine_content{margin: 5% 10% 0 10%; font-size:1.5vh; line-height: 200%;}
+#magazine_content .ui-grid-a a:link, .ui-grid-a i{color:black; font-size:1.5vh;}
+#magazine_content h1{font-size: 2v;}
+#magazine_content #result{font-size:2vh; font-weight: bold;}
+.magazineinfo_td1{width:20%;}
+.magazineinfo_td2{width:80%;}
+.magazineinfo_td2 a{width:40%;}
+#magazinetable1{width:95%;}
+#magazinetable3 {width:95%;}
+@media screen and (max-width: 1200px){
+#magazine_content .ui-grid-a .ui-block-a{width: 100%; padding:0 0 20% 0;}
+#magazine_content .ui-grid-a .ui-block-b{height: 50vh; padding:0 0 20% 0;}
+}
+#magazine_para1{margin: 5% 0 5% 0;}
+#magazine_para2{padding: 0 5% 5% 0;}
+
+/* subscription.html*/
+#subscription_content{margin: 5% 10% 0 10%; line-height: 200%; font-size:1.5vh;}
+#subtable1{width:85%;}
+#subtable2{width:90%;}
+.subscription_td1{width:20%;}
+.subscription_td2{width:80%;}
+.subscription_td3{width:60%;}
+@media screen and (max-width: 1200px){
+#subscription_content{margin: 5% 10% 0 10%; line-height: 200%;}
+#subtable1{width:100%;}
+#subtable2{width:100%;}
+#subscription_content .ui-grid-a .ui-block-a{width: 100%; padding:0 0 20% 0;}
+#subscription_content .ui-grid-a .ui-block-b{width: 100%; padding:0 0 20% 0;}
+}
